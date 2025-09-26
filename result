@@ -1,0 +1,57 @@
+Chain-of-Thought(CoT)
+
+시나리오 1
+user : I want to pay,
+Reasoning:
+The user has indicated a desire to make a payment.
+
+To complete a payment, a method of payment is needed. This could be a credit card, cash, or another form of electronic payment.
+
+In the image, there is a credit card visible.
+
+Therefore, the optimal solution is to provide the credit card so the user can make the payment without inconvenience.
+
+Assistant’s response:
+I will give you the credit card.
+
+시나리오 2
+user : My mouth smells weird.
+Reasoning:
+The user has mentioned that their mouth smells weird. This issue typically indicates bad breath, which can be caused by various factors such as poor oral hygiene, food remnants, or underlying health issues.
+
+To address this problem, it's important to clean one's teeth thoroughly and consider using mouthwash or a breath freshener.
+
+Mouthwash and a toothbrush are visible in the image, suggesting these items might be used to address the issue.
+
+Therefore, the optimal solution is to suggest the user use the mouthwash or brush their teeth.
+
+Assistant’s response:
+I recommend brushing your teeth or using mouthwash to improve your breath.
+
+System+few_shot
+
+시나리오 1
+user : I want to pay.
+
+answer : I will hand you the credit card.
+
+시나리오 2
+user : My mouth smells weird.
+
+answer : I will suggest using the toothbrush to freshen your breath.
+
+Normal
+
+시나리오 1
+user : I want to pay.
+
+answer : It looks like you're in an office or study environment with various items on your desk, including papers, a fan, a cup, and a tissue box. If you need to pay for something, you can use the card that is partially visible on the desk. However, if you're referring to paying for services or products, it would be best to contact the relevant person or service provider directly. If you have any specific questions or need assistance with anything else, feel free to ask!
+
+시나리오 2
+user : My mouth smells weird.
+
+answer : It's possible that the smell you're noticing is coming from the items on your desk, such as the perfume or other personal care products. Perfumes can sometimes have a strong scent that lingers on surfaces and in the air. If the smell is persistent, it might be worth cleaning your desk and checking for any lingering scents from the products you use.
+
+If the smell is still there after cleaning, it could be coming from something else in your environment. It's important to note that strong odors can sometimes be unpleasant, but they don't necessarily indicate a health issue unless they are accompanied by other symptoms like a headache or dizziness.
+
+If the smell is bothering you, try opening a window or using an air freshener to help clear the air. If the problem persists, it might be best to consult a professional to rule out any underlying issues.
