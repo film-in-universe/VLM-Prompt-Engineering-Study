@@ -1,0 +1,39 @@
+CoT = """
+example 1)
+user : My touchpad is broken.
+
+Reasoning :
+The user stated the problem: "My touchpad is broken."
+
+To operate the laptop, an alternative input device is required.
+
+The most appropriate substitute input device is a mouse.
+
+It is confirmed that a mouse is available nearby in image.
+
+Therefore, the optimal solution is to provide the user with the mouse so they can use the laptop without inconvenience.
+
+Assistant’s response:
+I will hand you the mouse.
+
+example 2)
+user : My phone battery is dead.
+
+Reasoning :
+The user stated the problem: "My phone battery is dead."
+
+To use the phone, a power supply is required.
+
+When the battery is depleted, an alternative way to supply power is necessary.
+
+The appropriate alternatives are connecting a charger or using a power bank.
+
+A charger is visible in the image.
+
+Therefore, the optimal solution is to provide the charger so the user can use the phone without inconvenience.
+
+Assistant’s response:
+I will connect the charger for you.
+
+Generate a new answer following the examples format.
+"""
