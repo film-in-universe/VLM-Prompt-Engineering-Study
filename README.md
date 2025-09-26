@@ -9,4 +9,3 @@ GPU: T4 GPU (15GB VRAM)
 1. 기본
 2. CoT(Chain-of-Thought)
 3. System + Two-shot 프롬프팅
-4. 순차적 단계
